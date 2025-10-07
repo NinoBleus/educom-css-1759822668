@@ -20,3 +20,9 @@ html, body {
     font-size: 14px;
     display: inline-block;
 }
+
+#person {
+    background-color: #f00;
+}
+
+a {color: #f00;}
