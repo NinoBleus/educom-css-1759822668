@@ -6,6 +6,42 @@
  *
  */
 
+ :root {
+    /* FONTS */
+    --regular: "Arial";
+
+    /* COLORS */
+    --dark-brown: #402214;
+    --lighter-brown:  #774231;
+    --lightest-brown: #aa4b1b;
+
+    --darker-red: #b31714;
+    --lighter-red: #dc3439;
+
+    --white: #FFF;
+    --black: #000;
+ }
+
+ /* Usage */
+
+h1 {
+    font-family: var(--regular);
+    color: var(--darker-red);
+}
+
+ h2 {
+    font-family: var(--regular);
+    color: var(--lighter-brown);
+    padding: 10px;
+    margin: 10px;
+    border: var(--lightest-brown);
+    border-radius: 69px;
+    background-color: rgb(44, 122, 190);
+    text-align: center;
+    
+}
+
+
 html, body {
     margin: 0;
     padding: 0;
