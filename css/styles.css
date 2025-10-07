@@ -71,3 +71,33 @@
     background: linear-gradient(0deg, rgba(34, 47, 195, 1) 0%, rgba(254, 255, 252, 1) 40%, rgba(255, 255, 255, 1) 60%, rgba(253, 45, 48, 1) 100%);
 
 }
+
+.menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.menu-trigger {
+    background-color: #f00;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    z-index: 5000 !important;
+}
+
+.menu-trigger:hover .dropdown {
+    top: 0px;
+}
+
+.dropdown {
+    position: fixed;
+    top: -400px;
+    right: 0;
+    left : 0;
+    height: 200px;
+    background-color: #fdf;
+    transition: all 0.4s ease;
+    padding: 40px;   
+}
