@@ -12,16 +12,17 @@ html, body {
 }
 
 
-a {
-    font-size: 22px;
-    color: #f0f;
+.site-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
-.cascading-parent h2 {
-    color: #fd0;
+.site-color {
+    background-color: indigo;
+    color: #fff;
 }
 
-.cascading-parent a {
-    font-size: 32px;
-    color: #ccc;
+.site-square {
+    width: 200px;
+    height: 200px;
 }
