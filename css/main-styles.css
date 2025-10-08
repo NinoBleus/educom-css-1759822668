@@ -82,12 +82,10 @@ html, body {
   color: white;
   text-shadow: 4px 4px 4px rgba(0,0,0,1);
 
-  /* responsive sizing */
   aspect-ratio: 16 / 9; 
   border-radius: 8px;
   transition: transform .3s ease, box-shadow .3s ease;
 
-  /* background image behavior */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
